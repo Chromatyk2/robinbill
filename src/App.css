@@ -1,17 +1,36 @@
+@font-face{
+  font-family: 'ClashGrotesk-Variable';
+  src:  url('../public/ClashGrotesk-Variable.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'GeneralSans-Variable';
+  src:  url('../public/GeneralSans-Variable.ttf') format('truetype');
+}
 .App {
   text-align: center;
+  background-color: #110F10;
+  min-height: 100vh;
+}
+.body{
+  width: 65vw;
+  display: block;
+  margin: auto;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.homeHeader{
+  color: white;
+  text-align: left;
+  font-family: "ClashGrotesk-Variable";
+  font-size: 30px;
+  line-height: 10px;
+  margin-top: 250px;
+  margin-bottom: 100px;
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +45,214 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  border-bottom: solid #F0F0EE 3px;
+}
+
+.navbar {
+  height: 120px;
+  background-color: #110F10;
+  position: relative;
+  margin-bottom: 40px;
+  font-family: "GeneralSans-Variable";
+}
+
+.logo {
+  height: 55px;
+  width: 90px;
+  display: flex;
+  align-items: baseline;
+  color: white;
+  text-align: left;
+  font-family: "ClashGrotesk-Variable";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-elements {
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #F0F0EE;
+  text-decoration: none;
+}
+
+.nav-elements ul a.active {
+  color: #F0F0EE;
+  font-weight: 500;
+  position: relative;
+}
+
+.leftImgPortfolio img{
+  width: 50%;
+}
+.leftImgPortfolio {
+  color: white;
+  display: flex;
+  gap: 20px;
+  align-items: end;
+  text-align: left;
+  font-family: "ClashGrotesk-Variable";
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  line-height: 20px;
+}
+.leftImgPortfolio h3{
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 0;
+}
+.leftImgPortfolio p{
+  font-size: 20px;
+}
+.leftImgPortfolio a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  border : solid white 1px;
+  border-radius: 100px;
+  padding: 5px;
+  width: 120px;
+  text-align: center;
+  font-family: "GeneralSans-Variable";
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.leftImgPortfolio a:hover{
+  color: #110F10;
+  background-color: white;
+  cursor: pointer;
+}
+.portfolioHomeContainer{
+  display: flex;
+  flex-flow: column;
+  gap: 80px;
+}
+.prestationsHomeContainer p{
+  color:white;
+  font-family: "GeneralSans-Variable";
+  text-align: left;
+  font-size: 50px;
+
+ }
+.allPrestation{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.uniquePrestation{
+  width: 30%;
+}
+.uniquePrestation .prestationTitle{
+  font-family: "GeneralSans-Variable";
+  color:white;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.uniquePrestation .prestationText{
+  color:white;
+  font-size: 16px;
+}
+.portfolioLink{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "GeneralSans-Variable";
+  font-weight: bold;
+  font-size: 30px;
+  border: solid white 3px;
+  width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.portfolioLink:hover{
+  background-color: white;
+  color: #110F10;
+  cursor: pointer;
+}
+.footerContainer{
+  padding-top: 75px;
+  font-family: "GeneralSans-Variable";
+  border-top: white 3px solid;
+  margin-top: 100px;
+  height: 500px;
+  line-height: 10px;
+}
+.footerHeader{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.footerContainer form {
+  margin-top: 75px;
+  width: 50%;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.inputText {
+  width: 46%;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.inputTextArea {
+   width: 100%;
+   height: 130px;
+  border-radius: 10px;
+  padding: 5px;
+ }
+.footerLink{
+  display: flex;
+  flex-flow: column;
+  line-height: 20px;
+  justify-content: right;
+  text-align: right;
+}
+.footerLink a{
+  font-family: "GeneralSans-Variable";
+  color:white;
+  text-decoration: none;
+}
+.logoRs{
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+.logoRs img{
+  width: 40px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 @keyframes App-logo-spin {
