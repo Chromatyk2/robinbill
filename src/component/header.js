@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom'
+import LogoTypeBlanc from '../Logotype blanc.svg'
 
 function Header() {
     const [showNavbar, setShowNavbar] = useState(false)
@@ -11,14 +12,14 @@ function Header() {
         <nav className="navbar">
             <div className="container">
                 <div className="logo">
-                    <h1 >Robin BILLAUDEL</h1>
+                    <NavLink to="/"><img src={LogoTypeBlanc}/></NavLink>
                 </div>
                 <div className="menu-icon" onClick={handleShowNavbar}>
                 </div>
                 <div className={`nav-elements  ${showNavbar && 'active'}`}>
                     <ul>
                         <li>
-                            <NavLink to="/">À propos</NavLink>
+                            <NavLink to="/about">À propos</NavLink>
                         </li>
                         <li>
                             <NavLink to="/stream">Contact</NavLink>
