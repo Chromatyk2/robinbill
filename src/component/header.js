@@ -26,7 +26,7 @@ function Header() {
                             <Link smooth to="#footerAnchor">Contact</Link>
                         </li>
                         <li>
-                            <NavLink to="/team">Portfolio</NavLink>
+                            <NavLink to="/portfolio">Portfolio</NavLink>
                         </li>
                     </ul>
                 </div>
