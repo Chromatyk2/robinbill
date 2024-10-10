@@ -441,6 +441,38 @@
 .logoRs img{
   width: 35px;
 }
+.projectHeader{
+  align-items:flex-end;
+  width:100%;
+  display:flex
+}
+.projectHeader{
+  align-items:flex-end;
+  width:100%;
+  display:flex;
+  gap: 60px;
+  margin-top: 70px;
+}
+.projectHeader h1{
+  width:850px;
+  font-size: 140px;
+}
+.projectHeader p{
+  width:450px;
+  line-height:20px;
+  font-size: 21px;
+  font-family:"GeneralSans-Light";
+  letter-spacing: 1px;
+  filter: opacity(75%);
+}
+#projetImgContainer{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+#projetImgContainer img{
+   width: 83% ;
+ }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
