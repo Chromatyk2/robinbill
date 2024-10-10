@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom'
 import LogoTypeBlanc from '../Logotype blanc.svg'
+import {HashLink as Link} from "react-router-hash-link";
 
 function Header() {
     const [showNavbar, setShowNavbar] = useState(false)
@@ -22,7 +23,7 @@ function Header() {
                             <NavLink to="/about">À propos</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/stream">Contact</NavLink>
+                            <Link smooth to="#footerAnchor">Contact</Link>
                         </li>
                         <li>
                             <NavLink to="/team">Portfolio</NavLink>

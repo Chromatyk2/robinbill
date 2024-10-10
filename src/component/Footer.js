@@ -11,7 +11,7 @@ function Footer() {
         setShowNavbar(!showNavbar)
     }
     return (
-        <div className={"footerContainer"}>
+        <div id={"footerAnchor"} className={"footerContainer"}>
             <div className={"footerHeader"}>
                 <div>
                     <p style={{textAlign:"left",fontSize:"43px",textTransform:"uppercase",fontWeight:"600"}}>Besoin d'aide pour un projet ?</p>
