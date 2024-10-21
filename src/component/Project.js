@@ -23,12 +23,12 @@ function Project(props) {
         <>
             <>
                 <div className={"home"}>
-                    <div className={"homeHeader"}>
-                        <div className={"projectHeader"}>
+                    <div className={"projectHeader"}>
+                        <div className={"homeHeader"}>
                             <h1>{from.name}</h1>
-                            <p>{from.text}</p>
+                            <img style={{width: "90px"}} src={PictoFleche}/>
                         </div>
-                        <img style={{width: "90px"}} src={PictoFleche}/>
+                        <p>{from.text}</p>
                     </div>
                 </div>
                 <div id={"projetImgContainer"}>
