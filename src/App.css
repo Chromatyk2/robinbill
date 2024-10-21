@@ -541,6 +541,26 @@
   }
 }
 @media (max-width: 1220px) {
+  .projectHeader {
+    gap: 10px;
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+  .projectHeader h1 {
+    font-size: 60px;
+  }
+  .projectHeader p {
+    padding-top: 0px;
+  }
+  .aboutContent {
+    justify-content: center;
+  }
+  .aboutContent h1{
+   font-size: 60px;
+    margin-bottom: 0;
+  }
+  .aboutTextContainer{width: 100%!important}
+  .aboutTextContainer p{width: 100%!important}
   .homeHeader {
     color: white;
     text-align: left;
@@ -587,6 +607,13 @@
      margin-top: 100px;
      line-height: 35px;
    }
+}
+@media (max-width: 920px) {
+  #projetImgContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 650px) {
   .logoRs {
