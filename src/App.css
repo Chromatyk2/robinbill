@@ -330,7 +330,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
-  margin-left: 540px;
   justify-content: end;
 }
 .uniquePrestation{
@@ -385,6 +384,7 @@
   color: white;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .inputText {
   width: 46%;
@@ -505,6 +505,115 @@
   font-size:40px;
   font-weight:500;
   font-family: "ClashGrotesk-Semibold";
+}
+@media (max-width: 1540px) {
+  .globalPortfolioLink a{
+    margin: auto;
+    width: 200px;
+    font-size: 25px;
+    height: 50px;
+    gap: 20px;
+  }
+  .globalPortfolioLink img{
+    width: 30px!important;
+    height: 30px!important;
+  }
+}
+@media (max-width: 1380px) {
+  .allPrestation {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1250px) {
+  .footerForm {
+    width: 100%;
+  }
+  .footerForm form {
+    justify-content: center;
+  }
+  .allPrestation {
+    margin: 0;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .uniquePrestation {
+    width: 400px;
+  }
+}
+@media (max-width: 1220px) {
+  .homeHeader {
+    color: white;
+    text-align: left;
+    font-family: "ClashGrotesk-Medium";
+    font-size: 25px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  .homeHeader img {
+    width: 50px!important;
+  }
+  .rightImgPortfolio{
+    left: -20px;
+    justify-content: center;
+  }
+  .rightImgPortfolio div{
+    width: 90%!important;
+    display: block;
+    margin: auto;
+  }
+  .rightImgPortfolio img{
+    width: 300px;
+  }
+  .leftImgPortfolio{
+    left: -20px;
+    justify-content: center;
+    flex-flow: column-reverse;
+    position: initial;
+  }
+  .leftImgPortfolio div{
+    width: 90%!important;
+    display: block;
+    margin: auto;
+  }
+  .leftImgPortfolio img{
+    width: 300px;
+    margin: auto;
+  }
+  .footerContainer {
+     padding-top: 30px;
+     font-family: "GeneralSans-Variable";
+     border-top: white 3px solid;
+     margin-top: 100px;
+     line-height: 35px;
+   }
+}
+@media (max-width: 650px) {
+  .logoRs {
+    flex-wrap: wrap!important;
+  }
+  .inputText {
+    width: 100%;
+  }
+}
+@media (max-width: 470px) {
+  .nav-elements ul a {
+    font-size: 17px;
+    color: #F0F0EE;
+    text-decoration: none;
+    filter: opacity(75%);
+    letter-spacing: 1px;
+  }
+  .nav-elements ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    flex-flow: column;
+    width: 80px;
+  }
+  .inputText {
+    width: 100%;
+  }
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
