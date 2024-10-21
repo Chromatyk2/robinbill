@@ -14,7 +14,7 @@ function Footer() {
         <div id={"footerAnchor"} className={"footerContainer"}>
             <div className={"footerHeader"}>
                 <div>
-                    <p style={{textAlign:"left",fontSize:"43px",textTransform:"uppercase",fontWeight:"600"}}>Besoin d'aide pour un projet ?</p>
+                    <p className={"titleFooter"}>Besoin d'aide pour un projet ?</p>
                     <p style={{marginTop:"-20px",filter:"opacity(75%)",textAlign:"left",fontSize:"20px"}}>N'hésitez pas à me contacter</p>
                 </div>
                 <div className={"footerLink"}>

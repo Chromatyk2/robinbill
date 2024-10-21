@@ -7,7 +7,6 @@ import imgYokai from '../Yokai Expo - 1.png';
 import pictoFleche from '../Flèche 2.png';
 import {Link, useLocation} from "react-router-dom";
 import PictoFleche from "../Flèche 1.png";
-import {Img} from "react-image";
 
 function Project(props) {
     const location = useLocation()
