@@ -13,7 +13,7 @@ function PrestationHome() {
                         <p className={"prestationText"}>Votre identité visuelle communique vos valeurs, votre mission et crée des repères forts pour votre audience. Grâce à un branding soigné, vous assurez une reconnaissance immédiate et durable, tout en vous différenciant de la concurrence. </p>
                     </div>
                     <div className={"uniquePrestation"}>
-                        <p className={"prestationTitle"}>Motion design & Montage vidéo</p>
+                        <p className={"prestationTitle"}>Motion design <br /> & Montage vidéo</p>
                         <p className={"prestationText"}>Le motion design et le montage vidéo sont des outils puissants pour dynamiser votre communication. Du contenu promotionnel aux animations d’illustration, le motion design capte l’attention et apporte vie à votre message. Le montage vidéo, quant à lui, renforce votre présence en ligne en racontant des histoires engageantes. Ensemble, ils créent des contenus percutants et mémorables, qui stimulent l’engagement et humanisent votre marque. </p>
                     </div>
                     <div className={"uniquePrestation"}>
