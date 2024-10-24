@@ -24,16 +24,7 @@ function Footer() {
                         <a target={"_blank"} href={"https://www.instagram.com/robinbill_"}><img src={logoInsta}/></a>
                     </div>
                     <a target={"_blank"} href="mailto:billaudelrobin@gmail.com"> billaudelrobin@gmail.com</a>
-                    <a target={"_blank"} href="tel:0607179630">06.07.17.96.30</a>
                 </div>
-            </div>
-            <div className={"footerForm"}>
-                <form>
-                    <input className={"inputText"} type={"text"} placeholder={"Entrez votre nom"}/>
-                    <input className={"inputText"} type={"text"} placeholder={"Entrez votre adresse mail"}/>
-                    <textarea className={"inputTextArea"} placeholder={"Entrez votre message"}/>
-                    <input className={"inputSubmit"} type={"submit"}/>
-                </form>
             </div>
         </div>
     );
