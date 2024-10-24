@@ -50,7 +50,7 @@ function PortfolioHome() {
                         </div>
                     </div>
                     <div className={"globalPortfolioLink"}>
-                        <Link>Portfolio <img style={{width: "60px", height:"50px"}} src={pictoFleche}/></Link>
+                        <Link>Portfolio <img style={{width: "30px", height:"25px"}} src={pictoFleche}/></Link>
                     </div>
                 </>
             }

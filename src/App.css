@@ -39,7 +39,7 @@
 
 .App {
   text-align: center;
-  background-color: #110F10;
+  background-color: #131313;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -66,7 +66,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color : #fcecec;
 }
 
 .App-link {
@@ -84,8 +84,8 @@
 }
 
 .navbar {
-  height: 240px;
-  background-color: #110F10;
+  height: 180px;
+  background-color: #131313;
   position: relative;
   margin-bottom: 40px;
   font-family: "GeneralSans-Variable";
@@ -94,12 +94,12 @@
 .logo {
   display: flex;
   align-items: baseline;
-  color: white;
+  color : #fcecec;
   text-align: left;
   font-family: "ClashGrotesk-Variable";
   text-transform: uppercase;
   letter-spacing: 1px;
-  width: 280px;
+  width: 220px;
 }
 
 .logo img{
@@ -111,11 +111,12 @@
   display: flex;
   justify-content: end;
   list-style-type: none;
-  flex-flow: column;
+  flex-flow: row;
+  gap: 50px;
 }
 
 .nav-elements ul a {
-  font-size: 23px;
+  font-size: 16px;
   color: #F0F0EE;
   text-decoration: none;
   filter: opacity(75%);
@@ -151,7 +152,7 @@
   text-align: left;
   font-family: "ClashGrotesk-Medium";
   font-size: 120px;
-  color: white;
+  color: #fcecec;
   letter-spacing: 2px;
   font-weight: lighter;
   text-transform: uppercase;
@@ -162,15 +163,15 @@
   text-align: left;
   font-family: "GeneralSans-Medium";
   font-size: 20px;
-  color: white;
+  color: #fcecec;
   font-weight: 1;
   width: 830px;
-  filter: opacity(75%);
+  filter: opacity(100%);
   line-height: 35px;
 }
 
 .homeHeader{
-  color: white;
+  color : #fcecec;
   text-align: left;
   font-family: "ClashGrotesk-Medium";
   font-size: 55px;
@@ -185,7 +186,7 @@
   width: 50%;
 }
 .leftImgPortfolio {
-  color: white;
+  color : #fcecec;
   display: flex;
   gap: 60px;
   align-items: end;
@@ -207,14 +208,14 @@
 .leftImgPortfolio p{
   font-family: "GeneralSans-Light";
   font-size: 16px;
-  filter: opacity(75%);
+  filter: opacity(100%);
   font-weight: lighter;
   line-height: 25px;
   letter-spacing: 1px;
 }
 .leftImgPortfolio a{
   display: block;
-  color: white;
+  color : #fcecec;
   text-decoration: none;
   border : solid white 1px;
   border-radius: 100px;
@@ -236,7 +237,7 @@
   width: 47.5%;
 }
 .rightImgPortfolio {
-  color: white;
+  color : #fcecec;
   display: flex;
   gap: 60px;
   align-items: end;
@@ -260,14 +261,14 @@
 .rightImgPortfolio p{
   font-family: "GeneralSans-Light";
   font-size: 16px;
-  filter: opacity(75%);
+  filter: opacity(100%);
   font-weight: lighter;
   line-height: 25px;
   letter-spacing: 1px;
 }
 .rightImgPortfolio a{
   display: block;
-  color: white;
+  color : #fcecec;
   text-decoration: none;
   border : solid white 1px;
   border-radius: 100px;
@@ -291,30 +292,33 @@
   gap: 80px;
   margin-top: -50px;
 }
-.globalPortfolioLink a{
-  display: block;
-  color: white;
+.globalPortfolioLink{
+  display: flex;
+  justify-content: center;
+}
+.globalPortfolioLink a {
+  color: #fcecec;
   text-decoration: none;
-  border: solid rgba(255,255,255,0.2) 0.5px;
+  border: solid rgba(255, 255, 255, 0.2) 0.5px;
   border-radius: 100px;
-  padding: 35px 55px 30px 55px;
+  padding: 17px 27px 15px 27px;
   width: fit-content;
   text-align: center;
   font-family: "ClashGrotesk-Medium";
-  font-size: 60px;
-  letter-spacing: 1px;
-  margin-bottom: 60px;
-  font-weight: bold;
+  font-size: 30px;
   margin-top: 130px;
-  margin-left: 900px;
   letter-spacing: 2px;
   margin-bottom: 250px;
   font-weight: 500;
   text-transform: uppercase;
-  height: 80px;
+  height: 40px;
   display: flex;
-  gap: 50px;
+  gap: 25px;
   align-items: center;
+  filter: opacity(0.5);
+}
+.globalPortfolioLink a:hover {
+  filter: opacity(1);
 }
 .prestationsHomeContainer{
   margin-top: -100px;
@@ -329,7 +333,7 @@
 .allPrestation{
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 70px;
   justify-content: end;
 }
 .uniquePrestation{
@@ -337,25 +341,26 @@
 }
 .uniquePrestation .prestationTitle{
   font-family: "ClashGrotesk-Medium";
-  color: white;
-  font-size: 35px;
+  color : #fcecec;
+  font-size: 50px;
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: -5px;
   margin-top: 0;
   margin-top: 0;
+  text-transform: uppercase;
 }
 .uniquePrestation .prestationText{
   color:white;
   font-size: 16px;
-  filter: opacity(75%);
+  filter: opacity(100%);
   font-family: "GeneralSans-Light";
-  font-size: 21px;
+  font-size: 16px;
   line-height: 24px;
 }
 .portfolioLink{
   text-decoration: none;
-  color: white;
+  color : #fcecec;
   text-transform: uppercase;
   font-family: "GeneralSans-Variable";
   font-weight: bold;
@@ -369,19 +374,19 @@
 }
 
 .portfolioLink:hover{
-  background-color: white;
-  color: #110F10;
+  background-color : #fcecec;
+  color: #131313;
   cursor: pointer;
 }
 .footerContainer{
   padding-top: 30px;
   font-family: "GeneralSans-Variable";
-  border-top: white 3px solid;
+  border-top: solid rgba(255,255,255,0.2) 0.5px;
   margin-top: 100px;
   line-height: 10px;
 }
 .footerHeader{
-  color: white;
+  color : #fcecec;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -412,7 +417,7 @@
   font-size: 16px;
   background: none;
   border: white 3px solid;
-  color: white;
+  color : #fcecec;
   filter: opacity(75%);
   font-family: "GeneralSans-Light";
   width: 240px;
@@ -475,7 +480,7 @@
   text-align: left;
   font-family: "ClashGrotesk-Medium";
   font-size: 120px;
-  color: white;
+  color : #fcecec;
   letter-spacing: 2px;
   font-weight: lighter;
   text-transform: uppercase;
@@ -486,9 +491,9 @@
   font-size: 14px;
   font-family:"GeneralSans-Light";
   letter-spacing: 1px;
-  filter: opacity(75%);
+  filter: opacity(100%);
   text-transform: capitalize;
-  color: rgba(255,255,255,.7);
+  color: #131313;
   text-align: left ;
   padding-top: 60px;
 }
@@ -500,11 +505,12 @@
 #projetImgContainer img{
    width: 83% ;
  }
-.titleFooter{
-  text-align:left;
-  font-size:40px;
-  font-weight:500;
-  font-family: "ClashGrotesk-Semibold";
+.titleFooter {
+  text-align: left;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "ClashGrotesk-Medium";
+  text-transform: uppercase;
 }
 @media (max-width: 1540px) {
   .globalPortfolioLink a{
@@ -562,7 +568,7 @@
   .aboutTextContainer{width: 100%!important}
   .aboutTextContainer p{width: 100%!important}
   .homeHeader {
-    color: white;
+    color : #fcecec;
     text-align: left;
     font-family: "ClashGrotesk-Medium";
     font-size: 25px;
@@ -613,6 +619,15 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 720px) {
+  .nav-elements ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    flex-flow: column;
+    gap: 0;
   }
 }
 @media (max-width: 650px) {
