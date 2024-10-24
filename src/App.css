@@ -202,8 +202,8 @@
 }
 .leftImgPortfolio h3{
   font-size: 50px;
-  margin: 0;
   font-weight: 500;
+  font-family: "ClashGrotesk-Medium";
 }
 .leftImgPortfolio p{
   font-family: "GeneralSans-Light";
